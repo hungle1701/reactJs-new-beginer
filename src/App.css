@@ -1,0 +1,10 @@
+.box-news{
+  display: flex;
+}
+.box-news-item1{
+  width: 100%;
+  padding: 20px;
+}
+.box-news-item1{
+  width: 50%;
+}

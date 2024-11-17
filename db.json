@@ -20,19 +20,19 @@
     {
       "id": "5",
       "title": "this is test api456",
-      "description": "Mặc định, JSON Server sẽ chạy trên cổng 3000, nhưng do React thường chạy trên cổng này, bạn nên đổi cổng của JSON Server sang 3001 (hoặc bất kỳ cổng nào khác). Sử dụng JSON Server trong React:Trong file React của bạn, bạn có thể sử dụng thư viện như axios hoặc fetch để lấy dữ liệu từ JSON Server.",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, b",
       "image": "https://picsum.photos/536/354"
     },
     {
       "id": "4",
       "title": "this is test api3",
-      "description": "Mặc định, JSON Server sẽ chạy trên cổng 3000, nhưng do React thường chạy trên cổng này, bạn nên đổi cổng của JSON Server sang 3001 (hoặc bất kỳ cổng nào khác). Sử dụng JSON Server trong React:Trong file React của bạn, bạn có thể sử dụng thư viện như axios hoặc fetch để lấy dữ liệu từ JSON Server.",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, b",
       "image": "https://picsum.photos/536/354"
     },
     {
       "id": "6",
       "title": "this is test api654",
-      "description": "Mặc định, JSON Server sẽ chạy trên cổng 3000, nhưng do React thường chạy trên cổng này, bạn nên đổi cổng của JSON Server sang 3001 (hoặc bất kỳ cổng nào khác). Sử dụng JSON Server trong React:Trong file React của bạn, bạn có thể sử dụng thư viện như axios hoặc fetch để lấy dữ liệu từ JSON Server.",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, b",
       "image": "https://picsum.photos/536/354"
     }
   ]

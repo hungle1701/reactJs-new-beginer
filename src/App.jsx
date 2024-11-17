@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  const url = 'http://localhost:3000/news'; // URL của JSON Server
   const [news, setNews] = useState([]);
   
   const [editingId, setEditingId] = useState(null); // ID của bài viết đang chỉnh sửa
@@ -10,7 +9,7 @@ function App() {
 
   // Lấy dữ liệu từ server
   useEffect(() => {
-    fetch(url)
+    fetch(`http://localhost:3000/news`)
       .then((response) => response.json())
       .then((data) => setNews(data));
   }, []);
@@ -31,7 +30,7 @@ function App() {
   // Hàm xử lý cập nhật bài viết
   const updateProduct = (id) => {
     fetch(`http://localhost:3000/news/${id}`, {
-      method: "PATCH", // chỗ này dùng "PUT" cũng được
+      method: "PATCH", // chỗ này dùng "PUT" cũng được, PATCH, PUT dùng như nhau
       headers: {
         "Content-Type": "application/json",
       },
@@ -47,6 +46,7 @@ function App() {
   return (
     <>
       <h1>News</h1>
+      {/* cái này giống như vòng lặp dùng để đổ dữ liệu ra ngoài */}
       {news.map((item) => (
         <div key={item.id} className='box-news'>
           <div className='box-news-item1'>
